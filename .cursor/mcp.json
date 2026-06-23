@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "fastproject-bench": {
+      "command": "bun",
+      "args": [
+        "run",
+        "/app/src/bench-mcp/main.ts"
+      ],
+      "env": {
+        "BENCH_API_URL": "http://host.docker.internal:3001/api",
+        "BENCH_RUN_ID": "run-81535e95",
+        "BENCH_AGENT_SECRET": "dev-bench-agent-secret-change-me"
+      }
+    }
+  }
+}
