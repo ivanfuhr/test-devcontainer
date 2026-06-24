@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
+.cursor
+AGENTS.md
 dist
 dist-ssr
 *.local
