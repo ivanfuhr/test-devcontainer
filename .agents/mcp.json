@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fastproject-bench": {
+      "command": "/home/ivanfuhr/.fastproject/runner/bin/fastproject-bench-mcp",
+      "args": [],
+      "env": {
+        "BENCH_API_URL": "http://localhost:3001/api",
+        "BENCH_RUN_ID": "run-b3cf154b",
+        "BENCH_AGENT_SECRET": "dev-bench-agent-secret-change-me"
+      }
+    }
+  }
+}
